@@ -127,4 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-.musor
+musor.py
+
+/server.db
+/trening_bot.py
+/my_account.session
+/my_bot.session
+/photo_2020-12-17_17-17-49.jpg
+/userbot.py
+/data
+/config.ini
+/bottg.py
+/hack_bot.py
