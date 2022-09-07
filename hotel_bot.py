@@ -1,8 +1,8 @@
 '''
 TODO:
-1. Add asking a cleaner func
+#1. Add asking a cleaner func
 2. Add asking a bar func
-3. Add GitHub
+#3. Add GitHub
 4. Create server
 '''
 
@@ -285,5 +285,11 @@ def other_things(call):
         bot.send_message(call.from_user.id, rules)
         others_menu(call)
 
+
+@bot.message_handler(commands=['test'])
+def test(call):
+    bot.send_message(call.from_user.id, 'testing' )
+    sleep(60)
+    bot.send_message(call.from_user.id, 'tested')
 
 bot.polling(none_stop=True)
